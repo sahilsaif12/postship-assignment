@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card'; 
 import {  useNavigate } from 'react-router-dom';
 import alertIcon from '../../assets/AlertTriangle.svg'
-import iIcon from '../../assets/iIcon.svg'
+import iIcon from '../../assets/Icon.png'
 import { useToast } from '@/hooks/use-toast';
 
 const Front: React.FC = () => {
