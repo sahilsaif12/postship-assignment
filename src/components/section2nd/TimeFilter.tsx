@@ -12,9 +12,9 @@ import { cn } from '@/lib/utils';
  
 const TimeFilter: React.FC = () => {
     const [date, setDate] = useState<Date >()
-    const handleChange = (date:Date) => {
-       setDate( date)
-      }
+    // const handleChange = (date:Date) => {
+    //    setDate( date)
+    //   }
       const [active, setactive] = useState('lifetime')
   return (
     <div className="flex space-x-4 flex-wrap ">
@@ -41,7 +41,7 @@ const TimeFilter: React.FC = () => {
         <Calendar
           mode="single"
           selected={date}
-          onSelect={()=>{}}
+          onSelect={setDate}
           initialFocus
         />
       </PopoverContent>
