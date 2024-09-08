@@ -17,7 +17,7 @@ const StarFacts: React.FC = () => {
                  <p className="mt-2">The maximum chargebacks are from Miami.</p>
 
             </div>
-           <button className="mt-4 px-4 py-1.5 bg-white rounded-xl text-black rounded-md">Check Orders Page</button>
+           <button className="mt-4 px-4 py-1.5 bg-white rounded-xl text-black ">Check Orders Page</button>
 
         </div>
     );
